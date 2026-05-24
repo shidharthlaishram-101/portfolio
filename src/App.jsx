@@ -544,7 +544,7 @@ function Contact() {
         )}
 
         <div style={{ display: "flex", gap: "1.25rem", marginTop: "2rem", justifyContent: "center", flexWrap: "wrap" }}>
-          {[["GitHub", "github.com/shidharthlaishram-101"], ["LinkedIn", "linkedin.com/in/shidharthlaishram"], ["Email", "shidharthlaishram@gmail.com"], ["YouTube", "https://youtube.com/playlist?list=PLK2KORVEWmb0eouP0PrIDeyvvRa90EI_L&si=-IwllJrGALeCPsAD"]].map(([label, url]) => (
+          {[["GitHub", "github.com/shidharthlaishram-101"], ["LinkedIn", "linkedin.com/in/shidharthlaishram"], ["Email", "shidharthlaishram@gmail.com"], ["YouTube", "youtube.com/playlist?list=PLK2KORVEWmb0eouP0PrIDeyvvRa90EI_L&si=hhvR4nwVoq6up_wl"]].map(([label, url]) => (
             <a key={label} href={`https://${url}`} target="_blank" rel="noreferrer"
               style={{ fontFamily: "'Space Mono', monospace", fontSize: "11px", color: "rgba(255,255,255,0.35)", textDecoration: "none", letterSpacing: "0.06em", transition: "color 0.2s" }}
               onMouseEnter={e => e.target.style.color = "#00E5A0"}
