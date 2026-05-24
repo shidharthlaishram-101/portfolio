@@ -511,7 +511,7 @@ function Contact() {
   if (!form.name || !form.email || !form.message) return;
   setStatus("sending");
   try {
-    const res = await fetch("https://portfolio-server-wfst.onrender.com", {
+    const res = await fetch("https://portfolio-server-wfst.onrender.com/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
