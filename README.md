@@ -60,7 +60,9 @@ PRs and issues are welcome. For local changes, follow the Quick Start steps abov
 
 ## License
 
-This repository does not include a license file. Add one if you plan to publish or share reuse rights.
+This project is licensed under the MIT License — see the `LICENSE` file in the project root.
+
+The `LICENSE` file includes `YEAR` and `FULL_NAME` placeholders; replace them with the appropriate copyright year and owner (for example: `2026 Jane Doe`). If you prefer a different license, tell me and I will update it.
 
 ## Contact
 
