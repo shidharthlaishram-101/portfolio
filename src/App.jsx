@@ -560,7 +560,7 @@ function Contact() {
 function Footer() {
   return (
     <footer style={{ padding: "1.5rem", textAlign: "center", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-      <p style={{ fontFamily: "'Space Mono', monospace", fontSize: "10px", color: "rgba(255,255,255,0.2)", letterSpacing: "0.06em" }}>
+      <p style={{ fontFamily: "'Space Mono', monospace", fontSize: "10px", color: "rgba(255, 255, 255, 0.68)", letterSpacing: "0.06em" }}>
         © {new Date().getFullYear()} — BUILT WITH 🤍 BY SHIDHARTH LAISHRAM
       </p>
     </footer>
